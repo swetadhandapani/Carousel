@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"/>
+    <title>Carousel Slider</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <h5 class="text-danger py-2 mt-3">Carousel in Bootstrap</h5>
+        <p class="text-success border-bottom py-2 mt-3 fw-semibold">Basic Carousel Example</p>
+
+
+        <div class="carousel slide carousel-fade" id="slider1">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-slide-to="0" data-bs-target="#slider1" class="active"></button>
+                <button type="button" data-bs-slide-to="1" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="2" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="3" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="4" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="5" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="6" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="7" data-bs-target="#slider1"></button>
+                <button type="button" data-bs-slide-to="8" data-bs-target="#slider1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img1.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Burgar</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img2.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Spicy Veg Maggie</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img3.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chicken Nuggets</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img4.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hotdog</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img6.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Blueberry Icecream</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img7.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chicken Shawarma</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img8.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Spicy Pasta</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img9.png" alt="..." class="d-block w-100"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Icecream Cookies</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#slider1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#slider1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--
+    data-bs-ride="carousel"        automatically it will change the slides
+    data-bs-ride="true"            user have to click the slider once;and it will be automatically moved further
+    data-bs-interval="100"          time interval 
+-->

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{
+    height: 580px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-item p{
+    color: #FFF;
+    font-weight: 400;
+}
